@@ -70,9 +70,12 @@ body {
 }
 .menu__list {
   margin: 0px 0px 0px 40px;
+  padding: 5px;
   flex-wrap: wrap;
 }
-.menu__item {
+.menu__item:hover {
+  border-bottom: 2px solid black;
+  transition: 0.2s;
 }
 .menu__link {
   font-weight: 400;
@@ -101,6 +104,10 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+.border__:hover {
+  border-bottom: solid 1px #e5e5e5;
+  transition: 0.4px;
 }
 .icon__call {
   height: 24px;
