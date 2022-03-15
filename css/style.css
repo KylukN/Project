@@ -107,7 +107,7 @@ body {
 }
 .border__:hover {
   border-bottom: solid 1px #e5e5e5;
-  transition: 0.4px;
+  transition: 0.3px;
 }
 .icon__call {
   height: 24px;
