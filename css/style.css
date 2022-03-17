@@ -93,6 +93,10 @@ body {
   width: 193px;
   border-radius: 30px;
 }
+.call:hover {
+  background: #00a2ff;
+}
+
 .call__tel {
   display: flex;
   margin-top: 14px;
@@ -146,7 +150,7 @@ footer {
   border-radius: 50%;
 }
 .footer__adress {
-  position: sticky;
+  position: relative;
   left: 1047px;
   color: #e5e5e5;
   line-height: 25px;
@@ -164,7 +168,7 @@ footer {
   flex-wrap: wrap;
 }
 .icon {
-  position: sticky;
+  position: relative;
   margin-left: 710px;
 }
 ._icon {
