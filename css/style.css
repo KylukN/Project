@@ -33,7 +33,7 @@ body {
   font-size: 16px;
   color: #000000;
   font-family: Oswald;
-  background: #e5e5e5;
+  background: #ffffff;
 }
 .wrapper {
   min-height: 100%;
@@ -119,8 +119,38 @@ body {
   width: 24px;
 }
 /*------------------------------MAIN------------------------------*/
-.main {
+.page {
   flex: 1 0 auto;
+  position: static;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+.page__main-block {
+}
+.foto__banking {
+  width: 100%;
+  position: absolute;
+}
+.page__text {
+  position: relative;
+  width: 600px;
+  height: 422px;
+  margin: 120px 0px 0px 0px;
+  z-index: 100;
+}
+.title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  padding: 0px 150px 0px 0px;
+  text-transform: uppercase;
+}
+.text__info {
+  padding: 30px 119px 0px 0px;
+  font-family: Roboto;
 }
 /*------------------------------FOOTER------------------------------*/
 footer {
@@ -151,7 +181,7 @@ footer {
 }
 .footer__adress {
   position: relative;
-  left: 1047px;
+  left: 800px;
   color: #e5e5e5;
   line-height: 25px;
 }
